@@ -6,8 +6,29 @@
   },
   "navLinks": [
     {
-      "label": "Inicio",
-      "href": "/"
+      "label": "Derecho marítimo",
+      "href": "/",
+      "dropdown": [
+        {
+          "label": "Servicios",
+          "href": "/#services",
+          "id": "services"
+        },
+        {
+          "label": "Equipo",
+          "href": "/#team",
+          "id": "team"
+        },
+        {
+          "label": "Preguntas frecuentes",
+          "href": "/#faqs",
+          "id": "faqs"
+        },
+        {
+          "label": "Contáctenos",
+          "id": "contact"
+        }
+      ]
     },
     {
       "label": "Nosotros",
