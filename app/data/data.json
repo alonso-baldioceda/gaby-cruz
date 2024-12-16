@@ -1,0 +1,157 @@
+{
+  "companyName": "Gaby Cruz Alanís",
+  "head": {
+    "title": "Abogada de Derecho Marítimo",
+    "description": "Servicios legales especializados en derecho marítimo."
+  },
+  "navLinks": [
+    {
+      "label": "Inicio",
+      "href": "/"
+    },
+    {
+      "label": "Nosotros",
+      "href": "/about"
+    }
+  ],
+  "socialLinks": {
+    "instagram": "https://www.instagram.com/alonsojose09/",
+    "facebook": "https://facebook.com/techco",
+    "whatsapp": "https://wa.me/1234567890"
+  },
+  "hero": {
+    "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+    "body": "Velit inventore iste dolores unde laboriosam iusto ullam consequuntur ex facilis sunt. Dolorem totam reiciendis eligendi corrupti, quibusdam dignissimos quasi culpa atque!"
+  },
+  "team": {
+    "title": "Nuestro Equipo",
+    "body": "Conoce a nuestro equipo de profesionales que están aquí para servirte.",
+    "members": [
+      {
+        "name": "Jane Doe",
+        "role": "Software Engineer",
+        "bio": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nostrum odio nesciunt, dolor quibusdam nihil."
+      },
+      {
+        "name": "Jane Smith",
+        "role": "Project Manager",
+        "bio": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nostrum odio nesciunt, dolor quibusdam nihil."
+      },
+      {
+        "name": "Jane Doe",
+        "role": "Software Engineer",
+        "bio": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nostrum odio nesciunt, dolor quibusdam nihil."
+      },
+      {
+        "name": "Jane Smith",
+        "role": "Project Manager",
+        "bio": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nostrum odio nesciunt, dolor quibusdam nihil."
+      },
+      {
+        "name": "Jane Doe",
+        "role": "Software Engineer",
+        "bio": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nostrum odio nesciunt, dolor quibusdam nihil."
+      },
+      {
+        "name": "Jane Smith",
+        "role": "Project Manager",
+        "bio": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nostrum odio nesciunt, dolor quibusdam nihil."
+      }
+    ]
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "body": "Ofrecemos una amplia gama de servicios para satisfacer todas tus necesidades. A continuación, encontrarás una lista de nuestros principales servicios y sus subservicios. Si tienes alguna pregunta, no dudes en contactarnos.",
+    "list": [
+      {
+        "service": "Registro y Matrícula de Embarcaciones",
+        "subservices": [
+          "Registro marítimo nacional",
+          "Renovación de matrícula",
+          "Cambios de propietario o características de la embarcación"
+        ]
+      },
+      {
+        "service": "Permisos y Licencias",
+        "subservices": [
+          "Licencia de pesca comercial",
+          "Permisos específicos",
+          "Licencias para operadores"
+        ]
+      },
+      {
+        "service": "Normativa Ambiental",
+        "subservices": [
+          "Evaluaciones de impacto ambiental",
+          "Cumplimiento de la Ley de Pesca y Acuicultura",
+          "Manejo de residuos y contaminantes"
+        ]
+      },
+      {
+        "service": "Seguridad Marítima",
+        "subservices": [
+          "Cumplimiento de la normativa SOLAS",
+          "Inspecciones de seguridad",
+          "Planes de emergencia y rescate"
+        ]
+      },
+      {
+        "service": "Zonas de Pesca y Uso del Espacio Marítimo",
+        "subservices": [
+          "Zonificación marítima",
+          "Resolución de conflictos de uso",
+          "Autorizaciones en áreas protegidas"
+        ]
+      },
+      {
+        "service": "Tributación y Cumplimiento Legal",
+        "subservices": [
+          "Pago de impuestos marítimos",
+          "Declaraciones de captura",
+          "Cumplimiento de tratados internacionales"
+        ]
+      },
+      {
+        "service": "Resolución de Disputas",
+        "subservices": ["Arbitraje marítimo", "Asesoría legal en sanciones"]
+      },
+      {
+        "service": "Capacitación y Asesoramiento Legal",
+        "subservices": [
+          "Capacitación en legislación marítima",
+          "Asesoría para nuevas embarcaciones",
+          "Consultoría en comercio marítimo"
+        ]
+      },
+      {
+        "service": "Innovación y Sostenibilidad",
+        "subservices": [
+          "Fomento de prácticas sostenibles",
+          "Acceso a subsidios"
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "body": "Aquí encontrarás respuestas a las preguntas más frecuentes. Si tienes alguna otra pregunta, no dudes en contactarnos.",
+    "questions": [
+      {
+        "title": "Click to open this one and close others",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nostrum odio nesciunt, dolor quibusdam nihil dolores neque accusamus deserunt quisquam nobis et voluptatibus id, perferendis accusantium nisi debitis praesentium sit."
+      },
+      {
+        "title": "Click to open this one and close others",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nostrum odio nesciunt, dolor quibusdam nihil dolores neque accusamus deserunt quisquam nobis et voluptatibus id, perferendis accusantium nisi debitis praesentium sit."
+      },
+      {
+        "title": "Click to open this one and close others",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nostrum odio nesciunt, dolor quibusdam nihil dolores neque accusamus deserunt quisquam nobis et voluptatibus id, perferendis accusantium nisi debitis praesentium sit."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contáctenos",
+    "body": "Si tienes alguna pregunta o necesitas más información, no dudes en ponerte en contacto con nosotros. Estamos aquí para ayudarte."
+  }
+}
