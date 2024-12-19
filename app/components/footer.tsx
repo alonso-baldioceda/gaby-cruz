@@ -1,21 +1,10 @@
 import React from "react";
-
-interface DropdownLink {
-  label: string;
-  href: string;
-}
-
-export interface SocialIcon {
-  Component: React.ComponentType<React.SVGProps<SVGSVGElement>>;
-}
-
-export type SocialLink = {
-  url: string;
-  Component: React.ComponentType<{ className: string }>;
-};
+import SocialIcon from "./socialIcon";
+import NavLink from "./../common/types/navigation";
+import SocialLink from "../common/types/socialLink";
 
 interface FooterProps {
-  navLinks: { label: string; href: string; dropdown?: DropdownLink[] }[];
+  navLinks: NavLink[];
   socialLinks: SocialLink[];
   activeLink?: string;
 }
@@ -56,28 +45,13 @@ const Footer: React.FC<FooterProps> = ({
             Industries Ltd
           </p>
         </div>
-
         <div className="w-full text-center lg:text-left pt-8 lg:pt-0">
           <nav className="flex justify-center lg:justify-end space-x-6">
-            {socialLinks.map(
-              ({ url, Component }, index) => (
-                // key in socialLinks ? (
-                <a
-                  key={index}
-                  href={url}
-                  // href={url(socialLinks[key as keyof SocialLinks]!)}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="no-underline outline-none cursor-pointer hover:text-primary"
-                >
-                  <Component className="w-8 h-8 fill-current" />
-                </a>
-              )
-              // ) : null
-            )}
+            {socialLinks.map(({ url, Component }, index) => (
+              <SocialIcon socialLink={{ url, Component }} key={index} />
+            ))}
           </nav>
         </div>
-
         <p className="block lg:hidden mt-4 text-center lg:text-left w-full pt-8 lg:pt-0">
           Copyright © {new Date().getFullYear()} - All rights reserved by ACME
           Industries Ltd

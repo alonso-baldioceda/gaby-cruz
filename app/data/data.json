@@ -26,6 +26,7 @@
         },
         {
           "label": "Contáctenos",
+          "href": "/#contact",
           "id": "contact"
         }
       ]

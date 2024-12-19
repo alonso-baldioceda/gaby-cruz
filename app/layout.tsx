@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { Outfit } from "next/font/google";
 import { usePathname } from "next/navigation";
 import Header from "./components/header";
-import Footer from "./components/footer";
+import FooterSimple from "./components/footerSimple";
 import "./globals.css";
 import data from "./data/data.json";
 
@@ -45,8 +45,6 @@ export default function RootLayout({
     },
   ];
 
-  console.log("navLinks", navLinks);
-
   return (
     <html lang="en">
       <body
@@ -64,7 +62,7 @@ export default function RootLayout({
           isOpen={isOpen}
         />
         <main className="mt-36">{children}</main>
-        <Footer
+        <FooterSimple
           navLinks={navLinks}
           socialLinks={socialLinks}
           activeLink={activeLink}
